@@ -1,8 +1,8 @@
 filetype off                  " required
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+ "set the runtime path to include Vundle and initialize
+ set rtp+=~/.vim/bundle/Vundle.vim
+ call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
@@ -17,25 +17,19 @@ Plugin 'vim-airline/vim-airline'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-:set tabstop=4
-:set shiftwidth=4
-:set expandtab
 
 " Ignore case when searching
 set ignorecase
 
-" When searching try to be smart about cases 
+" When searching try to be smart about cases
 set smartcase
 
 " Highlight search results
 set hlsearch
 
 " Makes search act like search in modern browsers
-set incsearch 
+set incsearch
 
-
-" Add a bit extra margin to the left
-set foldcolumn=1
 
 
 " Turn backup off, since most stuff is in SVN, git etc. anyway...
@@ -52,7 +46,7 @@ set expandtab
 
 " Be smart when using tabs ;)
 set smarttab
-
+"
 " 1 tab == 4 spaces
 set shiftwidth=4
 set tabstop=4
