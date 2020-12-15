@@ -8,7 +8,6 @@ filetype off                  " required
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'udalov/kotlin-vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'frazrepo/vim-rainbow'
 Plugin 'preservim/nerdtree'
@@ -66,3 +65,11 @@ set wrap "Wrap lines
 set nocompatible
 filetype plugin on
 syntax on
+
+
+" turn relative line numbers on
+set relativenumber!
+set rnu!
+
+" Change vimwiki syntax to markdown
+let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': '.md'}]
