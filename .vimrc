@@ -12,6 +12,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'frazrepo/vim-rainbow'
 Plugin 'preservim/nerdtree'
 Plugin 'vimwiki/vimwiki'
+Plugin 'tpope/vim-fugitive'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
