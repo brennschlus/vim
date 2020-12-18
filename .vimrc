@@ -68,8 +68,7 @@ syntax on
 
 
 " turn relative line numbers on
-set relativenumber!
-set rnu!
+set relativenumber
 
 " Change vimwiki syntax to markdown
 let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': '.md'}]
