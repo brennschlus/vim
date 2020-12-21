@@ -73,3 +73,6 @@ set relativenumber
 
 " Change vimwiki syntax to markdown
 let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': '.md'}]
+
+" Mapping timestamp on F3 button
+cmap <F3> <C-R>=strftime("%Y%m%d%H%M")<CR>
