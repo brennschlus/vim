@@ -13,6 +13,7 @@ Plugin 'frazrepo/vim-rainbow'
 Plugin 'preservim/nerdtree'
 Plugin 'vimwiki/vimwiki'
 Plugin 'tpope/vim-fugitive'
+Plugin 'michal-h21/vimwiki-sync'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
