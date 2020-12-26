@@ -14,6 +14,10 @@ Plugin 'preservim/nerdtree'
 Plugin 'vimwiki/vimwiki'
 Plugin 'tpope/vim-fugitive'
 Plugin 'michal-h21/vimwiki-sync'
+Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim'
+Plugin 'michal-h21/vim-zettel'
+" Silver Searcher is used for searching in the notes by default. The used command can be changed by setting the g:zettel_fzf_command variable.
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
